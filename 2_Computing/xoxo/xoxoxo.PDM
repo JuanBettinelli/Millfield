@@ -1,0 +1,88 @@
+[Root]
+Most Recent Package=Tic-Tac-Toe Setup!
+
+
+[Package|Tic-Tac-Toe Setup!|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\WINDOWS\Desktop\vb\my projects\xoxo\tic-tac-toe\setup
+
+[Package|Tic-Tac-Toe Setup!|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Tic-Tac-Toe Setup!|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Tic-Tac-Toe Setup!|Files Found]
+
+[Package|Tic-Tac-Toe Setup!|Files Released]
+
+[Package|Tic-Tac-Toe Setup!|Missing Dependency Information]
+
+[Package|Tic-Tac-Toe Setup!|Out-of-Date Dependency Information]
+
+[Package|Tic-Tac-Toe Setup!|Files Added]
+
+[Package|Tic-Tac-Toe Setup!|Files Removed]
+
+[Package|Tic-Tac-Toe Setup!|Files In Project]
+C:\WINDOWS\Desktop\vb\my projects\xoxo\tic-tac-toe\xoxoxo.exe=Yes
+C:\WINDOWS\SYSTEM\Msvbvm60.dll=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\Vb6stkit.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Tic-Tac-Toe Setup!|Configure Registry Files]
+Applicable=No
+
+[Package|Tic-Tac-Toe Setup!|Configure Remote Servers]
+Applicable=No
+
+[Package|Tic-Tac-Toe Setup!|Install Locations]
+C:\WINDOWS\Desktop\vb\my projects\xoxo\tic-tac-toe\xoxoxo.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\Msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\Vb6stkit.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Tic-Tac-Toe Setup!|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Desktop\vb\my projects\xoxo\tic-tac-toe\xoxoxo.exe=No
+
+[Package|Tic-Tac-Toe Setup!|Distribution]
+Type=single
+Size=
+Title=Games
+
+[Package|Tic-Tac-Toe Setup!|IconGroups]
+Group0=Games
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Tic-Tac-Toe Setup!|Games]
+Icon1=xoxoxo.EXE
+Title1=Tic-Tac-Toe
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Tic-Tac-Toe Setup!|Package]
+PackageFolder=C:\WINDOWS\Desktop\vb\my projects\xoxo\tic-tac-toe\setup
+ProjectFolder=C:\WINDOWS\Desktop\vb\my projects\xoxo\tic-tac-toe
+ServerSideCab=
+File1=C:\WINDOWS\Desktop\vb\my projects\xoxo\tic-tac-toe\setup\setup.exe
+File2=C:\WINDOWS\Desktop\vb\my projects\xoxo\tic-tac-toe\setup\Setup.Lst
+File3=C:\WINDOWS\Desktop\vb\my projects\xoxo\tic-tac-toe\setup\xoxoxo.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

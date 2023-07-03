@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<XmlWorld version="KaraX 1.0 turingkara" sizey="1" sizex="10">
+    <XmlKara y="0" x="5" name="TuringKara" direction="3"/>
+    <XmlWorldObject y="0" x="0" type="term"/>
+    <XmlWorldObject y="0" x="5" type="term"/>
+</XmlWorld>
